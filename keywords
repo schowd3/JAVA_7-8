@@ -29,12 +29,31 @@ else - conditional, activates when the rest of the if, else if conditions are no
 switch- The switch case in java executes one statement from multiple ones. Thus, it is like an if-else-if ladder statement. 
 
 default- The default keyword the default block of code in a switch statement. The default keyword specifies some code to run if there is no case match in the switch.
-for- create
+for- create a loop
 
-do , while, break, continue, return
+do: Java do keyword is used in the control statement to declare a loop. followed by while look
+
+while: Java while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean conditio
+
+break: It is used to terminate loops and switch statements in java. When the break keyword is encountered within a loop, the loop is immediately terminated and the program control goes to the next statement following the loop.
+continue :The continue keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
+
+return
+
 modifiers
-public, private, protected , static, final, abstract, synchronized, native, strictfp, transient, volatile
-exception handling
+public, 
+private, 
+protected , 
+static, 
+final, 
+abstract, 
+synchronized, 
+native, 
+strictfp, 
+transient, 
+volatile
+exception 
+handling
 
 
 
