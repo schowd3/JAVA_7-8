@@ -42,13 +42,17 @@ return- marks the end of a method that has a return type.
 
 modifiers
 
-static-
-final, 
-abstract, 
-synchronized, 
-native, 
-strictfp, 
-transient, 
+static variable and method-Attributes and methods belongs to the class, rather than an object.
+static block- init.Is used to initialize the static data member. It is executed before the main method at the time of classloading.
+static class- A static nested class may be instantiated without instantiating its outer class. Inner classes can access both static and non-static members of the outer class. A static class can access only the static members of the outer class.
+final var/methods- Attributes and methods cannot be overridden or modified
+final class- The class cannot be inherited by other classes
+abstract class- A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body).
+abstract method- The method does not have a body. The body is defined by the subclass (inherited from).
+synchronized- Methods can only be accessed by one thread at a time
+native- The native keyword is used to declare a method which is implemented in platform-dependent code such as C or C++.
+strictfp- Used for restricting floating-point calculations and ensuring same result on every platform while performing operations in the floating-point variable.
+transient- Attributes and methods are skipped when serializing the object containing them.
 volatile
 exception 
 handling
