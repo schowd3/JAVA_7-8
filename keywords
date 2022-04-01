@@ -38,7 +38,7 @@ while: Java while loop is a control flow statement that allows code to be execut
 break: It is used to terminate loops and switch statements in java. When the break keyword is encountered within a loop, the loop is immediately terminated and the program control goes to the next statement following the loop.
 continue :The continue keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
 
-return
+return- marks the end of a method that has a return type.
 
 modifiers
 public, 
