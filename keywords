@@ -11,7 +11,7 @@ Primitive Data types(in bytes):
 	boolean: T or F (1bit)
 	char: 2 
 	
-	Non-primitive:
+Non-primitive:
 	String
 
 Access Modifier
@@ -42,7 +42,7 @@ return- marks the end of a method that has a return type.
 
 modifiers
 
-static variable and method-Attributes and methods belongs to the class, rather than an object.
+static variable and method-Attributes and methods belongs to the class, rather than an object.A static variable acts as a global variable and is shared among all the objects of the class
 static block- init.Is used to initialize the static data member. It is executed before the main method at the time of classloading.
 static class- A static nested class may be instantiated without instantiating its outer class. Inner classes can access both static and non-static members of the outer class. A static class can access only the static members of the outer class.
 final var/methods- Attributes and methods cannot be overridden or modified
@@ -53,12 +53,54 @@ synchronized- Methods can only be accessed by one thread at a time
 native- The native keyword is used to declare a method which is implemented in platform-dependent code such as C or C++.
 strictfp- Used for restricting floating-point calculations and ensuring same result on every platform while performing operations in the floating-point variable.
 transient- Attributes and methods are skipped when serializing the object containing them.
-volatile
+volatile- The value of an attribute is not cached thread-locally, and is always read from the "main memory". More precisely that means, that every read of a volatile variable will be read from the computer's main memory, and not from the CPU cache, and that every write to a volatile variable will be written to main memory, and not just to the CPU cache.
 exception 
+try- The try keyword creates a try-catch statement. The try statement allows you to define a block of code to be tested for errors while it is being executed.
+catch- The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
 handling
 
+package:
+a group of similar types of classes, interfaces and sub-packages.
+Package in java can be categorized in two form, built-in package and user-defined package.
+Advantage
+1) Java package is used to categorize the classes and interfaces so that they can be easily maintained.
+2) Java package provides access protection.
+3) Java package removes naming collision.
 
 
-, package, import, extends, implements, interface
+
+import, extends, implements, 
+interface:
+Blueprint of class
+Method define in interface is by default public and abstract
+Interface attributes are by default public, static and final
+Cannot create object of an interface
+No constructor
+When a class implement an interface, need to override all methods
+Support multiple inheritance in java, extends multiple interface
+
+
 object related keywords
-new, instanceof, super, this
+new: 
+used to create an instance of the class
+It is used to create the object.
+It allocates the memory at runtime.
+All objects occupy memory in the heap area.
+It invokes the object constructor.
+It requires a single, postfix argument to call the constructor
+
+
+instanceof- The java “instanceof” operator is used to test whether the object is an instance of the specified type (class or subclass or interface).
+
+super
+a reference variable which is used to refer to immediate parent class objects.
+Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable
+Usage
+super can be used to refer to an immediate parent class instance variable.
+super can be used to invoke the immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
+
+this
+can be used to refer to the current class instance variable. 
+If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity
+
