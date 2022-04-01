@@ -1,15 +1,15 @@
 -for data types
 byte, short, int , long, float, double , char, boolean
 
-Primitive Data types:
+Primitive Data types(in bytes):
 	byte: 1
 	short: 2
 	integer (int): 4
 	long: 8 (23.23l)—needs to have a l in the end
 	float:4 (232.23f) –needs to have a f in the end
 	double: 8
-	boolean: T or F
-	char: ‘s’
+	boolean: T or F (1bit)
+	char: 2 
 	
 	Non-primitive:
 	String
@@ -41,10 +41,8 @@ continue :The continue keyword is used to end the current iteration in a for loo
 return- marks the end of a method that has a return type.
 
 modifiers
-public, 
-private, 
-protected , 
-static, 
+
+static-
 final, 
 abstract, 
 synchronized, 
